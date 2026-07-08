@@ -55,8 +55,8 @@ function App() {
   const fetchExpenses = () => {
   const userId =
     localStorage.getItem("userId");
-    fetch(
-  `http://127.0.0.1:5000/expenses/${userId}`
+  fetch(
+  `${import.meta.env.VITE_API_URL}/expenses/${userId}`
 )
   .then((response) => response.json())
   .then((data) => {
@@ -94,9 +94,8 @@ useEffect(() => {
   localStorage.getItem("userId");
 
 fetch(
-  `http://127.0.0.1:5000/budget/${userId}`
+  `${import.meta.env.VITE_API_URL}/budget/${userId}`
 )
-  
     .then((response) =>
       response.json()
     )
@@ -281,8 +280,8 @@ const healthScore =
     localStorage.getItem("userId");
 
   fetch(
-    `http://127.0.0.1:5000/reports/${userId}`
-  )
+  `${import.meta.env.VITE_API_URL}/reports/${userId}`
+)
     .then((response) =>
       response.json()
     )
@@ -340,7 +339,7 @@ const healthScore =
   if (isEditing) {
 
     await fetch(
-      `http://127.0.0.1:5000/expenses/${editingId}`,
+  `${import.meta.env.VITE_API_URL}/expenses/${editingId}`,
       {
         method: "PUT",
         headers: {
@@ -364,7 +363,7 @@ toast.success("Expense Updated Successfully!");
   } else {
 
     await fetch(
-      "http://127.0.0.1:5000/expenses",
+      `${import.meta.env.VITE_API_URL}/expenses`,
       {
         method: "POST",
         headers: {
@@ -401,7 +400,7 @@ const deleteExpense = async (
 ) => {
 
   await fetch(
-    `http://127.0.0.1:5000/expenses/${id}`,
+    `${import.meta.env.VITE_API_URL}/expenses/${id}`,
     {
       method: "DELETE",
     }
@@ -522,7 +521,7 @@ const generateAIAdvice = async () => {
       localStorage.getItem("userId");
 
     const response = await fetch(
-      `http://127.0.0.1:5000/ai-advice/${userId}`
+      `${import.meta.env.VITE_API_URL}/ai-advice/${userId}`
     );
 
     const data =
@@ -591,7 +590,7 @@ const downloadReport = () => {
     localStorage.getItem("userId");
 
   window.open(
-    `http://127.0.0.1:5000/download-report/${userId}`
+    `${import.meta.env.VITE_API_URL}/download-report/${userId}`
   );
   toast.success("Report Download Started");
 
@@ -875,7 +874,7 @@ return (
     );
 
     await fetch(
-      "http://127.0.0.1:5000/budget",
+  `${import.meta.env.VITE_API_URL}/budget`,
       {
         method: "PUT",
         headers: {
