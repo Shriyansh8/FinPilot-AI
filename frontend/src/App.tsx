@@ -8,7 +8,6 @@ import {
   FaEdit,
 } from "react-icons/fa";
 import Navbar from "./components/layout/Navbar";
-import HeroSection from "./components/dashboard/HeroSection";
 import Sidebar from "./components/layout/Sidebar";
 import ExpenseChart from "./components/ExpenseChart";
 import ExpenseBarChart from "./components/ExpenseBarChart";
@@ -87,13 +86,9 @@ useEffect(() => {
 
 }, []);
 useEffect(() => {
-
+  generateInsights();
   generateAIAdvice();
-
-}, [
-  expenses,
-  monthlyBudget
-]);
+}, [expenses, monthlyBudget]);
   const fetchBudget = () => {
     const userId =
   localStorage.getItem("userId");

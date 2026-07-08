@@ -1,6 +1,5 @@
 import {
   LayoutDashboard,
-  Bot,
   Target,
   FileText,
   Settings,
