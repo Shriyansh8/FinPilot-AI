@@ -1,0 +1,44 @@
+# ==========================
+# Node
+# ==========================
+node_modules/
+dist/
+dist-ssr/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==========================
+# Python
+# ==========================
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environment Variables
+.env
+
+# SQLite Database
+instance/
+*.db
+
+# Generated Reports
+report_user_*.pdf
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
