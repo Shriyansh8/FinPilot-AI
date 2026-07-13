@@ -1,7 +1,5 @@
 import { useState } from "react";
 import {
-  FaGoogle,
-  FaGithub,
   FaChartPie,
   FaRobot,
   FaBullseye
@@ -225,56 +223,18 @@ Trusted by hundreds of users for smarter financial decisions.
   type="submit" className="w-full bg-gradient-to-r from-violet-600 to-blue-600 py-4 rounded-xl font-semibold text-white hover:scale-[1.02] transition">
   Login
 </button>
-<div className="my-6 flex items-center gap-4">
-<div className="flex-1 h-px bg-white/10"></div>
-
-  <span className="text-slate-500 text-sm">
-    or continue with
-  </span>
-
-  <div className="flex-1 h-px bg-white/10"></div>
-
+<p className="text-slate-400 text-center mt-6">
+Don't have an account?
+<button
+type="button"
+onClick={onSwitchToRegister}
+className="text-cyan-400 ml-2">
+Register
+</button>
+</p>
+</form>
 </div>
-
-<div className="grid grid-cols-2 gap-4">
-
-  <button
-    type="button"
-    className="border border-white/10 p-3 rounded-xl hover:bg-white/5 transition flex justify-center items-center gap-2"
-  >
-    <FaGoogle />
-    Google
-  </button>
-
-  <button
-    type="button"
-    className="border border-white/10 p-3 rounded-xl hover:bg-white/5 transition flex justify-center items-center gap-2"
-  >
-    <FaGithub />
-    GitHub
-  </button>
-
 </div>
-
-        <p className="text-slate-400 text-center mt-6">
-
-          Don't have an account?
-
-          <button
-            type="button"
-            onClick={onSwitchToRegister}
-            className="text-cyan-400 ml-2"
-          >
-            Register
-          </button>
-
-        </p>
-
-      </form>
-
-    </div>
-
-  </div>
 );
 }
 
