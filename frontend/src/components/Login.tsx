@@ -140,7 +140,6 @@ else {
           Personalized recommendations.
         </p>
       </div>
-      +++ 
     </div>
 
     <div className="bg-white/5 border border-white/10 backdrop-blur-xl p-5 rounded-2xl flex gap-4 items-center hover:scale-[1.02] transition duration-300">
