@@ -236,4 +236,3 @@ https://www.linkedin.com/in/shriyansh-srivastava/
 If you like this project, consider giving it a ⭐ on GitHub!
 
 It motivates me to build more open-source projects
-<img width="1912" height="893" alt="Screenshot 2026-07-14 225728" src="https://github.com/user-attachments/assets/9985d095-9566-4dca-a282-b918f57a9a87" />
