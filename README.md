@@ -10,7 +10,7 @@ Built with **React**, **Flask**, **SQLite**, **Chart.js**, and **Groq AI**, the 
 
 ## 🚀 Live Demo
 
-🌐 **Frontend:** https://fin-pilot-ai-corral.vercel.app
+🌐 **Frontend:** https://fin-pilot-ai-coral.vercel.app/
 
 ⚙️ **Backend API:** https://finpilot-ai-backend-7ebj.onrender.com
 
