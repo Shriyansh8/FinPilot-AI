@@ -71,7 +71,7 @@ Built with **React**, **Flask**, **SQLite**, **Chart.js**, and **Groq AI**, the 
 
 > Secure authentication system
 
-<img width="1912" height="893" alt="Screenshot 2026-07-14 225728" src="https://github.com/user-attachments/assets/9985d095-9566-4dca-a282-b918f57a9a87" /><img width="1887" height="906" alt="Screenshot 2026-07-14 225331" src="https://github.com/user-attachments/assets/c7ba4d64-21c6-4223-9a02-9262b4531591" />
+<img width="1912" height="893" alt="Screenshot 2026-07-14 225728" src="https://github.com/user-attachments/assets/9985d095-9566-4dca-a282-b918f57a9a87" />
 
 
 ---
@@ -80,7 +80,7 @@ Built with **React**, **Flask**, **SQLite**, **Chart.js**, and **Groq AI**, the 
 
 > Track expenses and monitor monthly budget
 
-<img width="1912" height="893" alt="Screenshot 2026-07-14 225728" src="https://github.com/user-attachments/assets/9985d095-9566-4dca-a282-b918f57a9a87" /><img width="1881" height="902" alt="Screenshot 2026-07-14 225410" src="https://github.com/user-attachments/assets/2ec56de9-e227-4928-bd76-c846cb3c5179" />
+<img width="1881" height="902" alt="Screenshot 2026-07-14 225410" src="https://github.com/user-attachments/assets/2ec56de9-e227-4928-bd76-c846cb3c5179" />
 
 
 ---
@@ -97,7 +97,8 @@ Built with **React**, **Flask**, **SQLite**, **Chart.js**, and **Groq AI**, the 
 
 > Visualize your spending habits using interactive charts
 
-![Analytics](screenshots/analytics.png)
+<img width="1885" height="890" alt="Screenshot 2026-07-14 225424" src="https://github.com/user-attachments/assets/96e4fb80-d7a3-454d-b075-87294df49698" />
+
 
 ---
 
@@ -105,8 +106,7 @@ Built with **React**, **Flask**, **SQLite**, **Chart.js**, and **Groq AI**, the 
 
 > Edit, delete and manage expense history
 
-![Reports](screenshots/reports.png)
-
+<img width="1881" height="893" alt="Screenshot 2026-07-14 225439" src="https://github.com/user-attachments/assets/d2c2e50a-d2c9-42eb-bf4b-134e8187b2cd" />
 ---
 
 # 🧠 AI Features
